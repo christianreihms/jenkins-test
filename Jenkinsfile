@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                zsh 'node --version'
+                sh 'node --version'
             }
         }
     }
